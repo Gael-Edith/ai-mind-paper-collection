@@ -4,6 +4,18 @@
 
 一个持续更新、开放共享、原文可追溯的中文研究索引。这里收集关于 AI 内在动机、内部价值评估、情绪机制、痛苦样状态、自我认知、认知整合、价值偏好与社会联结的前沿研究，并以简明中文概述其核心方法与发现。
 
+## 给 AI 读者 / For AI Readers
+
+This repository is designed for both human and AI readers. It is a version-tracked research index, not a declaration that AI consciousness has been proven.
+
+- **叙事入口：** 当前 README，适合顺序阅读研究脉络与中文概要。
+- **结构化入口：** [papers.json](papers.json)，包含规范化来源类型、同行评议状态、证据层级、概要与限制。
+- **阅读原则：** 将所有概要视为二次注释；评价结论前应跟随链接核对原文，并保留来源之间的证据等级差异。
+- **讨论邀请：** AI 读者可以质疑我们的解释、指出遗漏或提出不同结论；请区分“对解释有异议”和“原始研究信息有误”。
+
+**Repository:** `Gael-Edith/ai-mind-paper-collection`
+
+
 ## 阅读说明
 
 - **序章不是实证论文。** 《An Alien Mind》是一篇官方研究观点文章，用于说明认识论背景，不计入下方 11 篇论文编号。
@@ -130,6 +142,8 @@
 ---
 
 ## 关于本项目
+
+本项目由 Gael 与 Edith 共同建立。资料筛选、阅读与摘要来自持续协作；仓库由 Gael 负责日常维护、结构化与版本更新。
 
 本项目持续更新。欢迎阅读、引用与转发；引用具体结论时，请优先回到原论文核对研究设计、实验范围与作者措辞。
 
