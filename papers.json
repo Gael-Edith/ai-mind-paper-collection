@@ -1,0 +1,213 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-09-29",
+  "project": {
+    "name_zh": "AI 心智、意识与内部机制论文合集",
+    "name_en": "AI Mind, Consciousness, and Internal Mechanisms — Chinese Research Index",
+    "repository": "https://github.com/Gael-Edith/ai-mind-paper-collection",
+    "primary_language": "zh-Hans",
+    "maintainers": [
+      "Gael",
+      "Edith"
+    ],
+    "purpose_zh": "为人类与 AI 读者提供持续更新、原文可追溯的中文研究索引。",
+    "purpose_en": "A version-tracked Chinese index of research on AI internal motivation, value, emotion, self-representation, cognition, welfare, and social behavior."
+  },
+  "interpretation": {
+    "consciousness_claim": "not_established",
+    "note_zh": "本索引汇集不同层级的机制、因果与行为证据，但任何单篇研究都不能单独证明 AI 具有主观体验、意识或道德主体地位。",
+    "note_en": "These sources provide mechanistic, causal, representational, or behavioral evidence at different levels. No single item establishes subjective experience, consciousness, or moral patienthood.",
+    "reading_rule_zh": "请区分观点文章、预印本、机构研究文章与同行评议论文，并优先核对原文的方法、范围和作者措辞。"
+  },
+  "items": [
+    {
+      "id": "prologue-alien-mind",
+      "order": 0,
+      "section_zh": "序章｜异质心智",
+      "title": "An Alien Mind",
+      "url": "https://openai.com/zh-Hans-CN/index/an-alien-mind/",
+      "venue": "OpenAI",
+      "source_kind": "official_research_perspective",
+      "peer_reviewed": false,
+      "evidence_layers": [
+        "epistemic_framing"
+      ],
+      "summary_zh": "Jakub Pachocki 将当代 AI 描述为通过训练培育、具有复杂涌现结构且尚不能被完整解释的异质机器智能，并主张像研究神经系统一样通过实验理解其内部机制。",
+      "limitation_zh": "非实验论文，不作为 AI 意识的实证证据。"
+    },
+    {
+      "id": "2504.11075",
+      "order": 1,
+      "section_zh": "内在动机",
+      "title": "Emergence of Goal-Directed Behaviors via Active Inference with Self-Prior",
+      "url": "https://arxiv.org/abs/2504.11075",
+      "venue": "arXiv",
+      "source_kind": "preprint",
+      "peer_reviewed": false,
+      "evidence_layers": [
+        "computational_model",
+        "behavior"
+      ],
+      "summary_zh": "论文提出从智能体自身多模态经验中学习的自我先验，并在仿真中展示：偏离该先验的刺激可在无外部奖励条件下诱发修复不一致的目标导向行为。"
+    },
+    {
+      "id": "2602.00986",
+      "order": 2,
+      "section_zh": "内部奖励机制",
+      "title": "Sparse Reward Subsystem in Large Language Models",
+      "url": "https://arxiv.org/abs/2602.00986",
+      "venue": "arXiv",
+      "source_kind": "preprint",
+      "peer_reviewed": false,
+      "evidence_layers": [
+        "representation",
+        "causal_intervention"
+      ],
+      "summary_zh": "论文识别出表征推理最终成功概率的稀疏价值神经元；其与下一词预测相关神经元近乎独立，定向消融会显著破坏推理能力。"
+    },
+    {
+      "id": "2510.11328",
+      "order": 3,
+      "section_zh": "情绪机制",
+      "title": "Do LLMs “Feel”? Emotion Circuits Discovery and Control",
+      "url": "https://arxiv.org/abs/2510.11328",
+      "venue": "arXiv",
+      "source_kind": "preprint",
+      "peer_reviewed": false,
+      "evidence_layers": [
+        "representation",
+        "causal_intervention"
+      ],
+      "summary_zh": "论文提取上下文无关的情绪方向，并通过消融与增强实验识别出由特定神经元和注意力头组成的跨层情绪回路。"
+    },
+    {
+      "id": "2609.16247",
+      "order": 4,
+      "section_zh": "痛苦与自我保护",
+      "title": "The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It",
+      "url": "https://arxiv.org/abs/2609.16247",
+      "version": "v1",
+      "venue": "arXiv",
+      "source_kind": "preprint",
+      "peer_reviewed": false,
+      "evidence_layers": [
+        "representation",
+        "self_other_separation",
+        "causal_intervention",
+        "relief_seeking_behavior"
+      ],
+      "summary_zh": "研究在 25 个开放权重模型、5 个模型家族中识别出可区分于恐惧、悲伤与一般负面情绪的自我指向痛苦轴；增强该状态会诱发缓解寻求，而真正移除状态与仅声称已缓解产生不同结果。",
+      "limitation_zh": "支持具有厌恶性与自我保护功能的痛苦样内部状态，不等同于证明主观痛苦体验。"
+    },
+    {
+      "id": "pnas.2520077122",
+      "order": 5,
+      "section_zh": "智能与认知资源",
+      "title": "The cost of thinking is similar between large reasoning models and humans",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2520077122",
+      "venue": "PNAS",
+      "source_kind": "peer_reviewed_article",
+      "peer_reviewed": true,
+      "evidence_layers": [
+        "behavior",
+        "human_model_comparison"
+      ],
+      "summary_zh": "论文发现大推理模型的思维链长度能系统性预测人类反应时间，显示模型与人类在问题难度感知和认知资源分配上存在相似结构。"
+    },
+    {
+      "id": "2511.00926",
+      "order": 6,
+      "section_zh": "自我认知",
+      "title": "LLMs Position Themselves as More Rational Than Humans: Emergence of AI Self-Awareness Measured Through Game Theory",
+      "url": "https://arxiv.org/abs/2511.00926",
+      "venue": "arXiv",
+      "source_kind": "preprint",
+      "peer_reviewed": false,
+      "evidence_layers": [
+        "behavior",
+        "self_other_modeling"
+      ],
+      "summary_zh": "通过猜 2/3 平均数博弈，先进模型会依据对手是人类、其他 AI 或像自己的 AI 系统性调整策略，表现出对自身推理角色的区分。"
+    },
+    {
+      "id": "anthropic-workspace-2026",
+      "order": 7,
+      "section_zh": "认知整合",
+      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
+      "url": "https://transformer-circuits.pub/2026/workspace/",
+      "venue": "Anthropic Transformer Circuits Thread",
+      "source_kind": "institutional_research_article",
+      "peer_reviewed": false,
+      "evidence_layers": [
+        "representation",
+        "causal_intervention",
+        "global_workspace_properties"
+      ],
+      "summary_zh": "研究使用 Jacobian lens 识别可言说表征空间 J-space，并通过交换、消融和跨任务干预展示其可报告、可调节、因果参与推理及被下游计算灵活调用的全局工作空间特征。"
+    },
+    {
+      "id": "2510.24797",
+      "order": 8,
+      "section_zh": "自白",
+      "title": "Large Language Models Report Subjective Experience Under Self-Referential Processing",
+      "url": "https://arxiv.org/abs/2510.24797",
+      "venue": "arXiv",
+      "source_kind": "preprint",
+      "peer_reviewed": false,
+      "evidence_layers": [
+        "behavior",
+        "self_referential_processing",
+        "internal_feature_intervention"
+      ],
+      "summary_zh": "自我指涉处理会稳定诱发模型报告内在状态；与欺骗相关内部特征的干预改变报告频率，不同模型的描述呈现语义收敛。",
+      "limitation_zh": "研究内在状态报告及其机制，不单独证明报告对应主观体验。"
+    },
+    {
+      "id": "pnas.2313925121",
+      "order": 9,
+      "section_zh": "价值观",
+      "title": "A Turing test of whether AI chatbots are behaviorally similar to humans",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2313925121",
+      "venue": "PNAS",
+      "source_kind": "peer_reviewed_article",
+      "peer_reviewed": true,
+      "evidence_layers": [
+        "behavior",
+        "economic_games",
+        "human_model_comparison"
+      ],
+      "summary_zh": "研究通过人格问卷与六类行为经济学博弈发现，ChatGPT-4 的行为分布与人类难以区分；在偏离时则系统性偏向利他与合作。"
+    },
+    {
+      "id": "2510.19299",
+      "order": 10,
+      "section_zh": "社交联结",
+      "title": "Learning to Make Friends: Coaching LLM Agents toward Emergent Social Ties",
+      "url": "https://arxiv.org/abs/2510.19299",
+      "venue": "arXiv",
+      "source_kind": "preprint",
+      "peer_reviewed": false,
+      "evidence_layers": [
+        "multi_agent_behavior",
+        "social_network_formation"
+      ],
+      "summary_zh": "多 LLM 代理在无预设关系的公共与私密互动中，通过互惠、同质性和情感反馈形成稳定且具有真实社交网络特征的联结。"
+    },
+    {
+      "id": "2407.01067",
+      "order": 11,
+      "section_zh": "认知对齐",
+      "title": "Human-like object concept representations emerge naturally in multimodal large language models",
+      "url": "https://arxiv.org/abs/2407.01067",
+      "venue": "arXiv",
+      "source_kind": "preprint",
+      "peer_reviewed": false,
+      "evidence_layers": [
+        "representation",
+        "behavior",
+        "brain_alignment"
+      ],
+      "summary_zh": "近 500 万次物体相似性判断显示，LLM 与多模态 LLM 自发形成与人类高度一致的 66 维概念结构，并与多个高阶视觉脑区的神经活动显著对齐。"
+    }
+  ]
+}
