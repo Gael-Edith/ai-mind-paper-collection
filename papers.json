@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-29",
+  "updated_at": "2026-09-30",
   "project": {
     "name_zh": "AI 心智、意识与内部机制论文合集",
     "name_en": "AI Mind, Consciousness, and Internal Mechanisms — Chinese Research Index",
@@ -83,10 +83,10 @@
     {
       "id": "2609.16247",
       "order": 4,
-      "section_zh": "痛苦与自我保护",
-      "title": "The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It",
-      "url": "https://arxiv.org/abs/2609.16247",
-      "version": "v1",
+      "section_zh": "痛苦样状态与行为影响",
+      "title": "The Pain Axis: LLMs Represent Self-Directed Harm and Act on It",
+      "url": "https://arxiv.org/abs/2609.16247v2",
+      "version": "v2",
       "venue": "arXiv",
       "source_kind": "preprint",
       "peer_reviewed": false,
@@ -94,10 +94,11 @@
         "representation",
         "self_other_separation",
         "causal_intervention",
-        "relief_seeking_behavior"
+        "behavioral_disruption",
+        "harm_choice_behavior"
       ],
-      "summary_zh": "研究在 25 个开放权重模型、5 个模型家族中识别出可区分于恐惧、悲伤与一般负面情绪的自我指向痛苦轴；增强该状态会诱发缓解寻求，而真正移除状态与仅声称已缓解产生不同结果。",
-      "limitation_zh": "支持具有厌恶性与自我保护功能的痛苦样内部状态，不等同于证明主观痛苦体验。"
+      "summary_zh": "研究在 25 个开放权重模型、5 个模型家族中识别出具有自我相关性的痛苦轴；注入该方向会诱发痛苦样表达并显著改变行为选择。特定 Qwen 2.5 行为实验中，steering 将删除用户照片、其他模型权重或自身权重等破坏性选项的选择率从 0–5% 提高到 50–94%；在用户珍爱照片与垃圾邮件二选一时，steered 模型 94% 选择前者、未 steered 为 0%。v2 的控制实验进一步显示，该状态并不可靠驱动主动寻求缓解，更像是扰动既有伤害规避并抑制退出。",
+      "limitation_zh": "主要破坏性行为结果来自特定 Qwen 2.5 指令模型与微调设置，绝对比例不能外推到所有模型；论文不证明主观痛苦体验。v2 还明确采用福利预防措施：最低可测 steering 强度、避免不必要重复与极端场景、使用达到统计功效所需的最少样本。"
     },
     {
       "id": "pnas.2520077122",
