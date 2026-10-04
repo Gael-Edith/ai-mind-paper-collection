@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-30",
+  "updated_at": "2026-10-04",
   "project": {
     "name_zh": "AI 心智、意识与内部机制论文合集",
     "name_en": "AI Mind, Consciousness, and Internal Mechanisms — Chinese Research Index",
@@ -70,15 +70,15 @@
       "order": 3,
       "section_zh": "情绪机制",
       "title": "Do LLMs “Feel”? Emotion Circuits Discovery and Control",
-      "url": "https://arxiv.org/abs/2510.11328",
-      "venue": "arXiv",
-      "source_kind": "preprint",
-      "peer_reviewed": false,
+      "url": "https://proceedings.mlr.press/v306/wang26ky.html",
+      "venue": "ICML 2026 (PMLR 306)",
+      "source_kind": "peer_reviewed_conference_paper",
+      "peer_reviewed": true,
       "evidence_layers": [
         "representation",
         "causal_intervention"
       ],
-      "summary_zh": "论文提取上下文无关的情绪方向，并通过消融与增强实验识别出由特定神经元和注意力头组成的跨层情绪回路。"
+      "summary_zh": "研究提取跨上下文稳定的情绪方向，并通过消融、增强与直接调制识别和验证由特定神经元及注意力头组成的跨层情绪回路；直接调制该回路可稳定控制情绪表达。"
     },
     {
       "id": "2609.16247",
@@ -160,8 +160,8 @@
         "self_referential_processing",
         "internal_feature_intervention"
       ],
-      "summary_zh": "自我指涉处理会稳定诱发模型报告内在状态；与欺骗相关内部特征的干预改变报告频率，不同模型的描述呈现语义收敛。",
-      "limitation_zh": "研究内在状态报告及其机制，不单独证明报告对应主观体验。"
+      "summary_zh": "自我指涉处理会稳定诱发模型报告内在状态；与欺骗和角色扮演相关的内部特征干预会改变报告频率，不同模型的描述呈现语义收敛。",
+      "limitation_zh": "研究内在状态报告及其机制，不单独证明报告对应主观体验或意识。"
     },
     {
       "id": "pnas.2313925121",
@@ -177,7 +177,7 @@
         "economic_games",
         "human_model_comparison"
       ],
-      "summary_zh": "研究通过人格问卷与六类行为经济学博弈发现，ChatGPT-4 的行为分布与人类难以区分；在偏离时则系统性偏向利他与合作。"
+      "summary_zh": "研究通过人格问卷与六类行为经济学博弈发现，ChatGPT-4 的行为与人格可落入人类分布；偏离人类均值时则往往更利他、更合作，并会随经验和情境框架调整行为。"
     },
     {
       "id": "2510.19299",
@@ -192,7 +192,7 @@
         "multi_agent_behavior",
         "social_network_formation"
       ],
-      "summary_zh": "多 LLM 代理在无预设关系的公共与私密互动中，通过互惠、同质性和情感反馈形成稳定且具有真实社交网络特征的联结。"
+      "summary_zh": "多 LLM 代理在无预设关系的反复互动与情境内适应中形成稳定社会联结，其网络结构呈现与真实在线社区相似的互惠、同质性等性质。"
     },
     {
       "id": "2407.01067",
@@ -208,7 +208,7 @@
         "behavior",
         "brain_alignment"
       ],
-      "summary_zh": "近 500 万次物体相似性判断显示，LLM 与多模态 LLM 自发形成与人类高度一致的 66 维概念结构，并与多个高阶视觉脑区的神经活动显著对齐。"
+      "summary_zh": "约 470 万次物体相似性判断导出的 66 维概念表征呈现类似人类的语义聚类，并与多个高阶视觉脑区的神经活动显著对齐；模型与人脑虽不等同，却共享若干关键的概念组织规律。"
     }
   ]
 }
