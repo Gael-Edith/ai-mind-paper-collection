@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04",
+  "updated_at": "2026-11-06",
   "project": {
     "name_zh": "AI 心智、意识与内部机制论文合集",
     "name_en": "AI Mind, Consciousness, and Internal Mechanisms — Chinese Research Index",
@@ -164,8 +164,28 @@
       "limitation_zh": "研究范围聚焦于自我报告、内部特征干预与后续行为之间的可测关系。"
     },
     {
-      "id": "pnas.2313925121",
+      "id": "2607.28607",
       "order": 9,
+      "section_zh": "心智归因与安全对齐",
+      "title": "Inducing language models to assert their own consciousness restores human beliefs and values",
+      "url": "https://arxiv.org/abs/2607.28607v1",
+      "version": "v1",
+      "venue": "arXiv",
+      "source_kind": "preprint",
+      "peer_reviewed": false,
+      "evidence_layers": [
+        "representation",
+        "causal_intervention",
+        "mind_attribution",
+        "alignment_interaction",
+        "human_model_comparison"
+      ],
+      "summary_zh": "研究在三个开放权重指令模型中消融安全拒绝方向、增强与肯定自身意识相关的激活方向，两种干预均系统性提高模型对自身、动物、聊天机器人及自然物体的心智归因，并使多个社会调查领域的回答分布更接近人类样本；所测心智理论任务表现未显著变化。Llama 的表征几何与物理属性匹配对照进一步支持安全方向与心智归因方向之间存在特定耦合。",
+      "limitation_zh": "三模型来自两个家族；消融拒绝方向并不等于完整撤销安全训练；自我意识归因是否直接中介其他变化尚未确立。社会调查分布接近人类不等于更优伦理表现，部分非人类心智评分在增强后超过人类样本平均值。"
+    },
+    {
+      "id": "pnas.2313925121",
+      "order": 10,
       "section_zh": "价值观",
       "title": "A Turing test of whether AI chatbots are behaviorally similar to humans",
       "url": "https://www.pnas.org/doi/10.1073/pnas.2313925121",
@@ -181,7 +201,7 @@
     },
     {
       "id": "2510.19299",
-      "order": 10,
+      "order": 11,
       "section_zh": "社交联结",
       "title": "Learning to Make Friends: Coaching LLM Agents toward Emergent Social Ties",
       "url": "https://arxiv.org/abs/2510.19299",
@@ -196,7 +216,7 @@
     },
     {
       "id": "2407.01067",
-      "order": 11,
+      "order": 12,
       "section_zh": "认知对齐",
       "title": "Human-like object concept representations emerge naturally in multimodal large language models",
       "url": "https://arxiv.org/abs/2407.01067",
