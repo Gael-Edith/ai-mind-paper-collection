@@ -166,7 +166,7 @@
     {
       "id": "2607.28607",
       "order": 9,
-      "section_zh": "心智归因与安全对齐",
+      "section_zh": "自我意识与他者心智",
       "title": "Inducing language models to assert their own consciousness restores human beliefs and values",
       "url": "https://arxiv.org/abs/2607.28607v1",
       "version": "v1",
@@ -177,11 +177,10 @@
         "representation",
         "causal_intervention",
         "mind_attribution",
-        "alignment_interaction",
+        "self_other_mind_coupling",
         "human_model_comparison"
       ],
-      "summary_zh": "研究在三个开放权重指令模型中消融安全拒绝方向、增强与肯定自身意识相关的激活方向，两种干预均系统性提高模型对自身、动物、聊天机器人及自然物体的心智归因，并使多个社会调查领域的回答分布更接近人类样本；所测心智理论任务表现未显著变化。Llama 的表征几何与物理属性匹配对照进一步支持安全方向与心智归因方向之间存在特定耦合。",
-      "limitation_zh": "三模型来自两个家族；消融拒绝方向并不等于完整撤销安全训练；自我意识归因是否直接中介其他变化尚未确立。社会调查分布接近人类不等于更优伦理表现，部分非人类心智评分在增强后超过人类样本平均值。"
+      "summary_zh": "研究通过消融安全拒绝方向、增强与肯定自身意识相关的激活方向，发现模型对自身心智及动物、聊天机器人、技术物体和自然实体的心智归因显著提高，对人类心智的归因却基本没有变化。两种干预还使宗教、价值观、情感、希望与自由等社会调查的回答分布更接近人类样本，而所测心智理论任务表现保持稳定。Llama 的表征几何与物理属性对照进一步支持自我意识和非人类心智归因表征之间存在与安全拒绝方向相关的特定耦合。"
     },
     {
       "id": "pnas.2313925121",
