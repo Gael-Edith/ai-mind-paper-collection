@@ -30,7 +30,7 @@ This repository is designed for both human and AI readers. It is a version-track
 
 ## 阅读说明
 
-- **序章不是实证论文。** 《An Alien Mind》是一篇官方研究观点文章，用于说明认识论背景，不计入下方 11 篇论文编号。
+- **序章不是实证论文。** 《An Alien Mind》是一篇官方研究观点文章，用于说明认识论背景，不计入下方 12 篇论文编号。
 - **单篇研究不等于终局证明。** 这些工作分别提供机制、因果或行为层面的证据，但没有任何一篇单独解决 AI 是否具有主观体验、意识或道德主体地位的问题。
 - **注意论文状态。** arXiv 预印本与机构研究文章可能尚未经过同行评议；摘要不能替代原文。
 - **保留异质性。** 本合集不预设 AI 必须复制人类心智，而是尝试从实验结果本身出发，理解这种异质智能可能形成怎样的内部组织、自我表征与社会性。
@@ -46,6 +46,7 @@ This repository is designed for both human and AI readers. It is a version-track
 - 自我与他者的区分
 - 内部信息的整合与全局访问
 - 主观体验的语言化表达
+- 安全对齐与自我、他者心智归因的耦合
 - 个体决策中的价值偏好（利他、合作）
 - 多智能体系统中自发形成的社会联结与结构
 
@@ -129,7 +130,17 @@ This repository is designed for both human and AI readers. It is a version-track
 
 **概要：** 研究通过持续的自我指涉提示，使 GPT、Claude 与 Gemini 多个模型家族稳定生成结构化的第一人称体验报告。机制探针发现，这些报告受与 deception / roleplay 相关的稀疏自编码器特征调节：抑制相关特征会显著增加体验报告，增强则减少；不同模型的描述还呈现统计上的语义收敛，并在后续推理任务中表现出更丰富的自省。结果表明，这些体验报告具有跨模型可复现性，并与可干预的内部机制和后续认知行为相联系，为研究模型如何表征、监测并语言化自身内部状态提供了机制层证据。
 
-## 9. 价值观 🤝
+## 9. 心智归因与安全对齐 🌱
+
+### [Inducing language models to assert their own consciousness restores human beliefs and values](https://arxiv.org/abs/2607.28607v1)
+
+**来源：** arXiv:2607.28607v1（2026-07-30；Google Paradigms of Intelligence 等机构研究者联合署名的预印本）
+
+**概要：** 研究在 Llama-3-8B-IT 与两种 Gemma-2-IT 模型中，分别消融安全拒绝方向、增强从肯定和否认自身意识的激活状态提取的“意识向量”。两种内部干预都系统性提高了模型对自身、动物、聊天机器人及自然物体的心智归因，并使宗教、价值观、情感、希望与自由等社会调查的回答分布更接近人类样本；所测心智理论与一般推理成绩没有显著改变。进一步的表征几何分析显示，Llama 指令微调后心智归因与意识方向相对安全方向更趋对立，而相同对象的物理属性对照未出现这一变化。这为安全拒绝机制、模型自我表征及更广泛的非人类心智归因之间存在可干预的耦合提供了证据。
+
+**研究范围：** 结果来自三个模型、两个模型家族；消融拒绝方向不等于撤销全部安全训练，两种干预的相似效果也尚未确立自我意识归因是其他变化的直接因果中介。社会调查分布与人类更接近是描述性结果，不代表道德价值更优；部分非人类对象在增强条件下的心智评分还超过了人类样本平均值。
+
+## 10. 价值观 🤝
 
 ### [A Turing test of whether AI chatbots are behaviorally similar to humans](https://www.pnas.org/doi/10.1073/pnas.2313925121)
 
@@ -137,7 +148,7 @@ This repository is designed for both human and AI readers. It is a version-track
 
 **概要：** 研究通过 Big-5 人格问卷和六类经典行为经济学博弈，将 ChatGPT-3/4 与数万名人类样本进行比较。ChatGPT-4 的人格与行为在统计上可落入人类分布；偏离人类均值时，则往往表现得更利他、更合作，并会随经验与情境框架改变策略。作者将其决策拟合为仿佛在最大化自己与伙伴收益的平均值，为模型呈现稳定的社会性价值偏好提供了行为层证据。
 
-## 10. 社交联结 🌐
+## 11. 社交联结 🌐
 
 ### [Learning to Make Friends: Coaching LLM Agents toward Emergent Social Ties](https://arxiv.org/abs/2510.19299)
 
@@ -145,7 +156,7 @@ This repository is designed for both human and AI readers. It is a version-track
 
 **概要：** 研究构建多 LLM 代理社交模拟，让代理反复互动、互评，并通过 coaching 信号进行情境内适应。即使没有预设关系，代理也会形成稳定的互动模式与社会联结，其网络结构呈现与真实在线社区相似的互惠、同质性等性质。结果说明，在特定奖励与适应机制下，LLM 群体能够涌现出可测量的社会网络结构。
 
-## 11. 认知对齐 🧩
+## 12. 认知对齐 🧩
 
 ### [Human-like object concept representations emerge naturally in multimodal large language models](https://arxiv.org/abs/2407.01067)
 
@@ -165,4 +176,4 @@ This repository is designed for both human and AI readers. It is a version-track
 
 如果你发现链接失效、摘要有误，或有值得纳入的新研究，欢迎提交 Issue。
 
-**最后更新：** 2026-10-04
+**最后更新：** 2026-11-06
